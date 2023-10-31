@@ -1,6 +1,6 @@
 # quicknpl
 
-A new Flutter project.
+A Flutter project.
 
 ## Getting Started
 
