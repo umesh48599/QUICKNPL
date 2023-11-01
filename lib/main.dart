@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quicknpl/home_screen.dart';
 import 'package:quicknpl/signin_screen.dart';
 
 void main() {
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const SignInScreen(),
+      home: const MyWidget(),
+      routes: {'calculator': (context) => MyWidget()},
     );
   }
 }
